@@ -10,7 +10,7 @@ instance/*
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.py[cod]git s
 *$py.class
 
 # C extensions
