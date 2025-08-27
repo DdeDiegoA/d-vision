@@ -1,0 +1,9 @@
+Flask>=2.2
+python-dotenv
+flask-cors
+gunicorn
+# herramientas de dev
+black
+isort
+mypy
+pytest
