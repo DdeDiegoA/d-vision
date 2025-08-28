@@ -9,4 +9,4 @@ bp = Blueprint("api", __name__, url_prefix="/api")
 
 @bp.route("/ping", methods=["GET"])
 def ping():
-    return jsonify({"message": "Hola negro"})
+    return jsonify({"message": "Pong"})
