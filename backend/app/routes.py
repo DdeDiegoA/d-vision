@@ -1,12 +1,10 @@
 from flask import Blueprint, jsonify
 
+from app.api.chat import chat
+
 bp = Blueprint("api", __name__, url_prefix="/api")
 
-# @bp.route("/chat",methods=["POST"])
-# def chat():
-#     return jsonify({"message": "pong"})
 
-
-@bp.route("/ping", methods=["GET"])
-def ping():
-    return jsonify({"message": "Pong"})
+@bp.route("/chat", methods=["POST"])
+def chat_endpoint():
+    return chat()
